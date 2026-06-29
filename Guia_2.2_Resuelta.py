@@ -207,3 +207,6 @@ def orden_topologico_kahn(G):
 #1. Implementar `distancia_entre_actores(archivo_csv, actor_a, actor_b)` que retorne la distancia mínima entre dos actores (en grados de separación).  Si no hay camino entre dos actores o un actor no se encuentra en el archivo de datos devolver `None`.
 
 #**Nota:** El archivo CSV tiene el formato `actor,pelicula`. Usar un grafo implícito, es decir, no cargar todo el grafo en memoria, sino que ir cargando nodos y aristas conforme se procesen.
+
+def distancia_entre_actores(archivo_csv, actor_a, actor_b):
+    return
